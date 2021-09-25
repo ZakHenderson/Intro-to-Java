@@ -26,8 +26,8 @@ public class Project4 {
 				noCounter = noCounter + 1;
 			}
 		
-		System.out.println("I know what will make me feel better, but I just can’t push myself to do it and I’ll"
-				+ " “Yes, but” any suggestions that people make.");
+		System.out.println("I know what will make me feel better, but I just canâ€™t push myself to do it and Iâ€™ll"
+				+ " â€œYes, butâ€ any suggestions that people make.");
 		String Question2 = Keyboard.nextLine();
 		
 		if(Question2.equalsIgnoreCase(y)) {
@@ -58,7 +58,9 @@ public class Project4 {
 		else if(yesCounter == 3) {
 			System.out.println("Probably stressed out");
 		}	
-			
+		
+		Keyboard.close();
+		
 		/*0 to 3: More exhausted than stressed out
 		4 to 6: Beginning to stress out
 		7 to 9: Possibly stressed out
